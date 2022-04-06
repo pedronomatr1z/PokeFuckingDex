@@ -15,3 +15,103 @@ h1{
     text-align: center;
     font-size: 54px;
 }
+
+.pokedex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cartao{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+    width: 250px;
+    height: 250;
+    border-radius: 20px;
+    transition: trasnform 0.2s;
+    opacity: 0.7;
+
+}
+.cartao:hover{
+transform: scale(1.1);
+}
+
+.grass{
+    background-color: rgb(97, 196, 97);
+}
+
+.fire{
+    background-color: rgb(255, 102, 0);
+}
+
+.water, .ice{
+    background-color: rgb(0, 255, 255);
+}
+
+.electric{
+    background-color: rgb(214, 214, 14);
+}
+
+.stell{
+    background-color: #f4f4f4;
+}
+
+.ground{
+    background-color: rgba(153, 8, 8, 0.582);
+}
+
+.rock{
+    background-color: gray;
+}
+
+.poison{
+    background-color: rgb(165, 19, 165);
+
+}
+
+.normal{
+    background-color: aliceblue;
+}
+
+.bug{
+    background-color: rgb(129, 151, 129);
+}
+
+.fairy{
+    background-color: pink;
+}
+
+.fighting{
+    background-color: rgb(41, 34, 34);
+}
+
+.psychic{
+    background-color: blueviolet;
+}
+.ghost{
+    background-color: rgb(189, 100, 115);
+}
+.dragon{
+    background-color: rgb(211, 183, 91);
+}
+
+.cartao-titulo{
+    text-transform: capitalize;
+    color: black;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+
+}
+
+.cartao-subtitulo{
+    color: #667
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.cartao img{
+    width: 180px;
+}
